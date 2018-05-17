@@ -1,0 +1,243 @@
+fileFormatVersion: 2
+guid: de2aab6eb81262b4da10b80674245dd5
+timeCreated: 1522585063
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Cube
+    100002: Cube_001
+    100004: Cube_002
+    100006: Cube_003
+    100008: Cube_004
+    100010: Cube_005
+    100012: //RootNode
+    100014: Border
+    100016: Floor
+    100018: Hill_Big
+    100020: Hill_Center
+    100022: Hill_Medium
+    100024: Hill_Small
+    100026: Scrap
+    100028: Hill_Big_Collider
+    100030: Hill_Center_Collider
+    100032: Hill_Medium_Collider
+    100034: Hill_Small_Collider
+    100036: Border_Collider
+    100038: Bridge_Big
+    100040: Bridge_Big_Collider
+    100042: Bridge_Small
+    100044: Bridge_Small_Collider
+    100046: Archway
+    100048: Tubebox
+    400000: Cube
+    400002: Cube_001
+    400004: Cube_002
+    400006: Cube_003
+    400008: Cube_004
+    400010: Cube_005
+    400012: //RootNode
+    400014: Border
+    400016: Floor
+    400018: Hill_Big
+    400020: Hill_Center
+    400022: Hill_Medium
+    400024: Hill_Small
+    400026: Scrap
+    400028: Hill_Big_Collider
+    400030: Hill_Center_Collider
+    400032: Hill_Medium_Collider
+    400034: Hill_Small_Collider
+    400036: Border_Collider
+    400038: Bridge_Big
+    400040: Bridge_Big_Collider
+    400042: Bridge_Small
+    400044: Bridge_Small_Collider
+    400046: Archway
+    400048: Tubebox
+    2100000: Material
+    2100002: unnamed
+    2100004: Scrap
+    2100006: Hill
+    2100008: Border
+    2100010: Floor
+    2100012: Decoration
+    2300000: Cube
+    2300002: Cube_001
+    2300004: Cube_002
+    2300006: Cube_003
+    2300008: Cube_004
+    2300010: Cube_005
+    2300012: Border
+    2300014: Floor
+    2300016: Hill_Big
+    2300018: Hill_Center
+    2300020: Hill_Medium
+    2300022: Hill_Small
+    2300024: Scrap
+    2300026: Hill_Big_Collider
+    2300028: Hill_Center_Collider
+    2300030: Hill_Medium_Collider
+    2300032: Hill_Small_Collider
+    2300034: Border_Collider
+    2300036: Bridge_Big
+    2300038: Bridge_Big_Collider
+    2300040: Bridge_Small
+    2300042: Bridge_Small_Collider
+    2300044: Archway
+    2300046: Tubebox
+    3300000: Cube
+    3300002: Cube_001
+    3300004: Cube_002
+    3300006: Cube_003
+    3300008: Cube_004
+    3300010: Cube_005
+    3300012: Border
+    3300014: Floor
+    3300016: Hill_Big
+    3300018: Hill_Center
+    3300020: Hill_Medium
+    3300022: Hill_Small
+    3300024: Scrap
+    3300026: Hill_Big_Collider
+    3300028: Hill_Center_Collider
+    3300030: Hill_Medium_Collider
+    3300032: Hill_Small_Collider
+    3300034: Border_Collider
+    3300036: Bridge_Big
+    3300038: Bridge_Big_Collider
+    3300040: Bridge_Small
+    3300042: Bridge_Small_Collider
+    3300044: Archway
+    3300046: Tubebox
+    4300000: Cube_005
+    4300002: Cube_004
+    4300004: Cube_003
+    4300006: Cube_002
+    4300008: Cube_001
+    4300010: Cube
+    4300012: Hill_Center
+    4300014: Hill_Small
+    4300016: Hill_Big
+    4300018: Hill_Medium
+    4300020: Border
+    4300022: Floor
+    4300024: Scrap
+    4300026: Hill_Small_Collider
+    4300028: Hill_Medium_Collider
+    4300030: Hill_Big_Collider
+    4300032: Hill_Center_Collider
+    4300034: Border_Collider
+    4300036: Bridge_Big_Collider
+    4300038: Bridge_Small_Collider
+    4300040: Bridge_Small
+    4300042: Bridge_Big
+    4300044: Archway
+    4300046: Tubebox
+    7400000: Default Take
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Border
+    second: {fileID: 2100000, guid: 2ef26c25582dcc942b29e5263817f538, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Decoration
+    second: {fileID: 2100000, guid: 01364dfab0fe4e54d8a4ab7fe27314ac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Floor
+    second: {fileID: 2100000, guid: 7b914430e52c2a34e945472a65cc0717, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hill
+    second: {fileID: 2100000, guid: 9a9392285ce9a624399850af6fd3235f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Scrap
+    second: {fileID: 2100000, guid: 0ca2fd76671b01d4b83ad53edeb7b23c, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 0
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 0
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 1
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

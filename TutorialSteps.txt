@@ -1,0 +1,72 @@
+NAV MESH
+    - Create NavMesh Surface
+        -> Add Nav Mesh Surface to the Level
+        -> Hit Bake
+        -> Set Collect Object to Children
+        -> Hit Bake
+    
+    - Adjust Humanoid Values
+        -> To get a proper navmesh
+        -> Hit Bake
+    
+    - Set the Border to not walkable
+        -> Add to the Border Nav Mesh Modifier
+        -> Override Area -> Area Type -> Not Walkable
+        -> Hit Bake
+
+    - Remove scrap from the nav mesh build with layers
+        -> Create Layer Scrap
+        -> Set Gameobjects Layer ScrapObject
+        -> Exclude Layer from navMesh build
+        -> Hit Bake
+
+    -> Add NavMesh Agend to Player
+        -> Add Nav Mesh Agent
+        -> Adjust Values
+        -> Add new Script to Control the Player
+                                                        public class PlayerNavController : MonoBehaviour {
+
+                                                        public NavMeshAgent NavAgent;
+                                                        public Animator Anim;
+
+                                                            
+                                                        // Update is called once per frame
+                                                        void Update () {
+                                                            if (Input.GetMouseButtonDown(0))
+                                                            {
+                                                                Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+                                                                RaycastHit hit;
+
+                                                                if (Physics.Raycast(ray, out hit))
+                                                                    NavAgent.SetDestination(hit.point);
+                                                            }
+                                                        }
+                                                    }
+
+
+        -> Adjust Player Values to be more responsive
+
+
+
+ANIMATION
+    - Animationen kurz anschauen
+
+    - Dem Player ein neues Mesh geben
+        -> Altes Mesh Gameobject löschen
+        -> Neues Mesh reinziehen und umbenennen
+        
+    - Animation Controler erstellen -> NavMovement
+    - AnimationCotroller dem Player zuweisen
+
+    - Idle und Walk reinziehen
+    - Play drücken
+
+    - Create TRansition to Walk and Back
+        -> Create Variable IsMoving
+        -> Create TRansition
+        -> Add Condition
+        -> Uncheck HasExitTime
+        -> Create Back TRansition
+
+    - Go Back to NavScript
+        -> 
